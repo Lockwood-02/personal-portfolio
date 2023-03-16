@@ -30,7 +30,30 @@ function Home() {
                     <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
 
                         {/* Start Icons */}
-            <div className='p-6 shadow-xl dark:shadow-[#000] rounded-xl hover:scale-105 ease-in duration-100'>
+
+                <div className='p-6 shadow-xl dark:shadow-[#000] rounded-xl hover:scale-105 ease-in duration-100'>
+                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                        <div className='m-auto'>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="skill" width={64} height={64}/>
+                        </div>
+                        <div  className='flex flex-col items-center justify-center'>
+                            <h3>Python</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div className='p-6 shadow-xl dark:shadow-[#000] rounded-xl hover:scale-105 ease-in duration-100'>
+                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                        <div className='m-auto'>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="skill" width={64} height={64}/>
+                        </div>
+                        <div  className='flex flex-col items-center justify-center'>
+                            <h3>Java</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div className='p-6 shadow-xl dark:shadow-[#000] rounded-xl hover:scale-105 ease-in duration-100'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="skill" width={64} height={64}/>
@@ -55,10 +78,11 @@ function Home() {
                 <div className='p-6 shadow-xl dark:shadow-[#000] rounded-xl hover:scale-105 ease-in duration-100'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="skill" width={64} height={64}/>
+                            {/* changing to django */}
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" alt="skill" width={64} height={64}/> 
                         </div>
                         <div  className='flex flex-col items-center justify-center'>
-                            <h3>JavaScript</h3>
+                            <h3>Django</h3>
                         </div>
                     </div>
                 </div>
@@ -66,10 +90,10 @@ function Home() {
                 <div className='p-6 shadow-xl dark:shadow-[#000] rounded-xl hover:scale-105 ease-in duration-100'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="skill" width={64} height={64}/>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="skill" width={64} height={64}/>
                         </div>
                         <div  className='flex flex-col items-center justify-center'>
-                            <h3>Java</h3>
+                            <h3>JavaScript</h3>
                         </div>
                     </div>
                 </div>
@@ -92,29 +116,6 @@ function Home() {
                         </div>
                         <div  className='flex flex-col items-center justify-center'>
                             <h3>Tailwindcss</h3>
-                        </div>
-                    </div>
-                </div>
-
-                <div className='p-6 shadow-xl dark:shadow-[#000] rounded-xl hover:scale-105 ease-in duration-100'>
-                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-                        <div className='m-auto'>
-                            {/* changing to django */}
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" alt="skill" width={64} height={64}/> 
-                        </div>
-                        <div  className='flex flex-col items-center justify-center'>
-                            <h3>Django</h3>
-                        </div>
-                    </div>
-                </div>
-
-                <div className='p-6 shadow-xl dark:shadow-[#000] rounded-xl hover:scale-105 ease-in duration-100'>
-                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-                        <div className='m-auto'>
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="skill" width={64} height={64}/>
-                        </div>
-                        <div  className='flex flex-col items-center justify-center'>
-                            <h3>Python</h3>
                         </div>
                     </div>
                 </div>
