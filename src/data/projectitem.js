@@ -33,5 +33,12 @@ export default [
         stack: ['HTML', 'JavaScript'],
         link: 'https://github.com/Lockwood-02/ToDoApp',
         description: 'One of the first applications that I created it simply keeps track of tasks that the user is able to input'
+    },
+    {
+        year: '2023',
+        title: 'Personal Portfolio',
+        stack: ['React', 'Tailwindcss'],
+        link: 'https://github.com/Lockwood-02/personal-portfolio',
+        description: 'The source code for this website'
     }
 ]

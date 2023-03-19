@@ -84,6 +84,9 @@ function Header() {
                         <Link to="/projects" className="inline-block mt-4 lg:inline-block lg:mt-0 text-gray-500 dark:text-gray-400 hover:text-stone-800 hover:border-b-2 hover:-mb-2 dark:hover:text-white dark:hover:border-b-2 dark:hover:-mb-2 border-fuchsia-500 mr-12">
                             <span className='inline-block'>Projects</span>
                         </Link>
+                        <Link to="/contact" className="inline-block mt-4 lg:inline-block lg:mt-0 text-gray-500 dark:text-gray-400 hover:text-stone-800 hover:border-b-2 hover:-mb-2 dark:hover:text-white dark:hover:border-b-2 dark:hover:-mb-2 border-lime-500 mr-12">
+                            <span className='inline-block'>Contact</span>
+                        </Link>
                         <a href='https://github.com/Lockwood-02' target="_blank" rel="noreferrer" className="inline-block mt-4 lg:inline-block lg:mt-0 text-gray-500 dark:text-gray-400 hover:text-stone-800 hover:border-b-2 hover:-mb-2 dark:hover:text-white dark:hover:border-b-2 dark:hover:-mb-2 border-red-400 mr-12 hover:fill-white">
                             <span>GitHub</span>
                             {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className='inline-block h-4 w-4 fill-gray-400 ml-1 '>

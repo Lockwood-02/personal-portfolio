@@ -4,6 +4,7 @@ import About from './pages/About'
 import Projects from './pages/Projects'
 import NoPage from './pages/NoPage'
 import Footer from './components/Footer'
+import Contact from './pages/Contact'
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
             <Route path='/home' element={<Home />} />
             <Route path='/about' element={<About />} />
             <Route path='/projects' element={<Projects />} />
+            <Route path='/contact' element={<Contact />} />
             <Route path='*' element={<NoPage />} />
           </Routes>
         </BrowserRouter>
