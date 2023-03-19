@@ -4,8 +4,8 @@ function About() {
     return (
         <>
             <Header />
-            <div className="flex justify-between">
-                <header>
+            <div className="flex justify-between m-auto text-center md:text-left">
+                <header className="relative">
                     <div className="max-w-4xl">
                         <h1 className="text-5xl font-bold mt-32">About me</h1>
                         <p className="text-xl mt-8">
@@ -26,9 +26,12 @@ function About() {
                         </p>
                     </div>
                 </header>
-                <div className="flex mt-20 ml-8">
+                <div className="flex mt-20 ml-8 m-auto object-bottom hidden md:block">
                     <img src="https://i.postimg.cc/SNMv2FkR/fotor-2023-3-15-0-4-55.jpg" alt="me" title="MeOnDaPhotoShoot" className="border rounded border-[#2c2c2c] dark:border-gray-400"/>
                 </div>
+            </div>
+            <div className="flex w-full h-auto m-auto mx-auto mt-8 md:hidden justify-center">
+                    <img src="https://i.postimg.cc/SNMv2FkR/fotor-2023-3-15-0-4-55.jpg" alt="me" title="MeOnDaPhotoShoot" className="border rounded border-[#2c2c2c] dark:border-gray-400"/>
             </div>
         </>
     )

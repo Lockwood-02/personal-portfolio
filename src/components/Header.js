@@ -64,15 +64,50 @@ function Header() {
             </svg>
           )
 
+				// const btn = document.querySelector("button.mobile-menu-button");
+				// const menu = document.querySelector(".mobile-menu");
+
+				// btn.addEventListener("click", () => {
+				// 	menu.classList.toggle("hidden");
+				// });
+
     return (
 
     <>    
     <section className='pt-12'> 
         <div>
-            <a href='/' className='text-xl font-bold dark:text-stone-300'>
+            <a href='/' className='hidden md:flex text-xl font-bold dark:text-stone-300'>
                 <span>Isaac Lockwood</span>
             </a>
-            <nav className="flex items-center justify-between flex-wrap mt-4 mb-4">
+
+            {/* Mobile Menu */}
+            <div className="md:hidden flex justify-center items-center">
+            <a href='/' className='flex md:hidden justify-center text-xl font-bold dark:text-stone-300'>
+                <span>Isaac Lockwood</span>
+            </a>
+            </div>
+
+            <div class="md:hidden flex mobile-menu justify-center">
+            <ul class="">
+              <Link to="/" className="inline-block mt-4 lg:inline-block lg:mt-0 text-gray-500 dark:text-gray-400 hover:text-stone-800 hover:border-b-2 hover:-mb-2 dark:hover:text-white dark:hover:border-b-2 dark:hover:-mb-2 border-amber-500 mr-4">
+                <span className='inline-block'>Home</span>
+              </Link>
+              <Link to="/about" className="inline-block mt-4 lg:inline-block lg:mt-0 text-gray-500 dark:text-gray-400 hover:text-stone-800 hover:border-b-2 hover:-mb-2 dark:hover:text-white dark:hover:border-b-2 dark:hover:-mb-2 border-emerald-400 mr-4">
+                <span className='inline-block'>About</span>
+              </Link>
+              <Link to="/projects" className="inline-block mt-4 lg:inline-block lg:mt-0 text-gray-500 dark:text-gray-400 hover:text-stone-800 hover:border-b-2 hover:-mb-2 dark:hover:text-white dark:hover:border-b-2 dark:hover:-mb-2 border-fuchsia-500 mr-4">
+                <span className='inline-block'>Projects</span>
+              </Link>
+              <Link to="/contact" className="inline-block mt-4 lg:inline-block lg:mt-0 text-gray-500 dark:text-gray-400 hover:text-stone-800 hover:border-b-2 hover:-mb-2 dark:hover:text-white dark:hover:border-b-2 dark:hover:-mb-2 border-lime-500 mr-4">
+                <span className='inline-block'>Contact</span>
+              </Link>
+              <a href='https://github.com/Lockwood-02' target="_blank" rel="noreferrer" className="inline-block mt-4 lg:inline-block lg:mt-0 text-gray-500 dark:text-gray-400 hover:text-stone-800 hover:border-b-2 hover:-mb-2 dark:hover:text-white dark:hover:border-b-2 dark:hover:-mb-2 border-red-400 hover:fill-white">
+                <span>GitHub</span>
+              </a>
+            </ul>
+          </div>
+
+            <nav className="hidden md:flex items-center justify-between mt-4 mb-4">
                 <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
                     <div>
                         <Link to="/" className="inline-block mt-4 lg:inline-block lg:mt-0 text-gray-500 dark:text-gray-400 hover:text-stone-800 hover:border-b-2 hover:-mb-2 dark:hover:text-white dark:hover:border-b-2 dark:hover:-mb-2 border-amber-500 mr-12">
@@ -101,7 +136,7 @@ function Header() {
                         </a>
                     </div>
                 </div>
-                <button className='flex items-center justify-center border rounded h-10 w-10 border-[#2c2c2c] dark:border-gray-400' onClick={toggleTheme}>
+                <button className='hidden md:flex items-center justify-center border rounded h-10 w-10 border-[#2c2c2c] dark:border-gray-400' onClick={toggleTheme}>
                     {/* <img className='flex h-7 w-7' src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAAYlJREFUWEftmDFuwkAQRe0rRIECWpSWs+QE1ClzDgpKak6QU0TQ0kZROigSixMggbD9LXms4a/HcZhFoVnh3WX/vBnPzpAmHT+jh+R07Sf2hyTtckSnzZeD3QqUwnafiwLUz2s+ZB+jfJzO9jWAbYmaCboXKONKE5y9z2tLQTSUpJlgdAI1wSw2GclfIxidQAhGbFpJ9kYweoEwQOZLGZM3I+hGYFdX907wbgR+bY65Lc/L73xELLoh+C+QFaUsYd+MoCZMppn4Bcp6jlUZzKWh6QXrKMFoBKLqGE+K3sJKMjT2WhP0L3Bd2jQoujSQhKUaUdZEybeWkcN8dZNULvEucLsq+tnHp3o/myhEYWlVMeNB2R9r5MwE3QqUeUsVioUl0SofBhILJdeIwWgFajdGI0bLhegxtH24MTAv6z+5r1EP4m2Gi90JlK7Gdya4LTGWV9UYjEagJCJvireXoQat9hwxFkqMxqB2qnuBjKhmmLUaojHI/Mf+m7a61OxiJriv+T/ri60GnAG1B7A4DYusaQAAAABJRU5ErkJggg==" alt="Theme" /> */}
                     {theme === 'dark' ? sun : moon}
                 </button>

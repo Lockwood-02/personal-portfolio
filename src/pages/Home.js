@@ -7,7 +7,7 @@ function Home() {
             <Header />
             <div className="flex justify-between">
                 <header>
-                    <div className="max-w-4xl">
+                    <div className="max-w-4xl text-center md:text-left">
                         <h1 className="text-5xl font-bold mt-32">Hi, I'm Isaac!</h1>
                         <h3 className="text-xl mt-10">Welcome to my website.</h3>
                         <p className="text-xl mt-8">
@@ -17,7 +17,7 @@ function Home() {
                         </p>
                     </div>
                 </header>
-                <div className="flex mt-20 ml-8">
+                <div className="flex mt-20 ml-8 m-auto hidden md:block">
                     <img src="https://i.postimg.cc/HLY3rvHR/me2.jpg" alt="me" title="MeOnDaBeach" className="border rounded border-[#2c2c2c] dark:border-gray-400"/>
                 </div>
             </div>
