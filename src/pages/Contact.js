@@ -37,6 +37,7 @@ function Contact() {
                         Connect
                     </button>
                     </form>
+                    {/* <img src="https://i.postimg.cc/gJkG4dDk/bmc-qr.png"></img> */}
                 </div>
             </div>
         </>

@@ -109,6 +109,7 @@ function Header() {
               <a href='https://github.com/Lockwood-02' target="_blank" rel="noreferrer" className="inline-block mt-4 lg:inline-block lg:mt-0 text-gray-500 dark:text-gray-400 hover:text-stone-800 hover:border-b-2 hover:-mb-2 dark:hover:text-white dark:hover:border-b-2 dark:hover:-mb-2 border-red-400 hover:fill-white">
                 <span>GitHub</span>
               </a>
+              
             </ul>
           </div>
 
