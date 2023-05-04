@@ -18,7 +18,7 @@ function Home() {
                     </div>
                 </header>
                 <div className="flex mt-20 ml-8 m-auto hidden md:block">
-                    <img src="https://i.postimg.cc/HLY3rvHR/me2.jpg" alt="me" title="MeOnDaBeach" className="border rounded border-[#2c2c2c] dark:border-gray-400"/>
+                    <img src="https://i.postimg.cc/RFH4H3g8/23-DSC02779.jpg" alt="me" title="MeOnDaBeach" className="border rounded border-[#2c2c2c] dark:border-gray-400"/>
                 </div>
             </div>
             <div className="flex">
