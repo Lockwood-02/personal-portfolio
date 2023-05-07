@@ -21,7 +21,7 @@ function About() {
                         <p className="text-xl mt-8">
                             Right now I am open looking for work. If you would like to get in touch with me you can email me 
                             at <a href="mailto:isaaclockwood618@gmail.com" className="text-amber-500 underline hover:bg-amber-500 hover:text-stone-300">
-                                isaaclockwood618@gmail.com</a> You can also view my resume <a href="https://i.postimg.cc/VLt7gdD1/Isaac-Lockwood-Resume-2023-1.png" target="_blank" rel="noreferrer" className="text-amber-500 underline hover:bg-amber-500 hover:text-stone-300">
+                                isaaclockwood618@gmail.com</a> You can also view my resume <a href="https://i.postimg.cc/52MxfVBf/Isaac-Lockwood-Resume-2023-q.png" target="_blank" rel="noreferrer" className="text-amber-500 underline hover:bg-amber-500 hover:text-stone-300">
                                 here.</a>
                         </p>
                     </div>
