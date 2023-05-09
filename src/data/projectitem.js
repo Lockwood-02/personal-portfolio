@@ -53,6 +53,6 @@ export default [
         title: 'Vanity-View',
         stack: ['React', 'TailwindCSS', 'JavaScript'],
         link: 'https://github.com/Lockwood-02/Vanity-View',
-        description: 'An application where user can upload designs onto a 3D modeled shirt or have AI make a design for them'
+        description: 'An application where users can upload designs onto a 3D modeled shirt or have AI make a design for them'
     }
 ]
