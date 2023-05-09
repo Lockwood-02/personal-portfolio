@@ -44,8 +44,15 @@ export default [
     {
         image: 'https://i.postimg.cc/BZ5QjRtN/FBLAQuest-For-BAA.png',
         title: 'FBLA Quest for BAAs',
-        stack: ['GML','GameMakerStudio2'],
+        stack: ['GML', 'GameMakerStudio2'],
         link: 'https://github.com/Lockwood-02/FBLA-QUEST-FOR-BAAs',
         description: 'My FBLA award winning game from High School'
+    },
+    {
+        image: 'https://i.postimg.cc/52Gx58GW/Vanity-View.png',
+        title: 'Vanity-View',
+        stack: ['React', 'TailwindCSS', 'JavaScript'],
+        link: 'https://github.com/Lockwood-02/Vanity-View',
+        description: 'An application where user can upload designs onto a 3D modeled shirt or have AI make a design for them'
     }
 ]
