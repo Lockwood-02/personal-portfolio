@@ -18,7 +18,7 @@ function Home() {
                     </div>
                 </header>
                 <div className="flex mt-20 ml-8 m-auto hidden md:block">
-                    <img src="https://i.postimg.cc/RFH4H3g8/23-DSC02779.jpg" alt="me" title="MeOnDaBeach" className="border rounded border-[#2c2c2c] dark:border-gray-400"/>
+                    <img src="https://i.postimg.cc/RFH4H3g8/23-DSC02779.jpg" alt="me" title="MeOnDaBeach" className="border rounded border-[#2c2c2c] dark:border-gray-400" />
                 </div>
             </div>
             <div className="flex">
@@ -31,99 +31,99 @@ function Home() {
 
                         {/* Start Icons */}
 
-                <div className='p-6 shadow-xl dark:shadow-[#000] rounded-xl hover:scale-105 ease-in duration-100'>
-                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-                        <div className='m-auto'>
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="skill" width={64} height={64}/>
+                        <div className='p-6 shadow-xl dark:shadow-[#000] rounded-xl hover:scale-105 ease-in duration-100'>
+                            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                                <div className='m-auto'>
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="skill" width={64} height={64} />
+                                </div>
+                                <div className='flex flex-col items-center justify-center'>
+                                    <h3>Python</h3>
+                                </div>
+                            </div>
                         </div>
-                        <div  className='flex flex-col items-center justify-center'>
-                            <h3>Python</h3>
+
+                        <div className='p-6 shadow-xl dark:shadow-[#000] rounded-xl hover:scale-105 ease-in duration-100'>
+                            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                                <div className='m-auto'>
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="skill" width={64} height={64} />
+                                </div>
+                                <div className='flex flex-col items-center justify-center'>
+                                    <h3>Java</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className='p-6 shadow-xl dark:shadow-[#000] rounded-xl hover:scale-105 ease-in duration-100'>
+                            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                                <div className='m-auto'>
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="skill" width={64} height={64} />
+                                </div>
+                                <div className='flex flex-col items-center justify-center'>
+                                    <h3>HTML</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className='p-6 shadow-xl dark:shadow-[#000] rounded-xl hover:scale-105 ease-in duration-100'>
+                            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                                <div className='m-auto'>
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="skill" width={64} height={64} />
+                                </div>
+                                <div className='flex flex-col items-center justify-center'>
+                                    <h3>CSS</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className='p-6 shadow-xl dark:shadow-[#000] rounded-xl hover:scale-105 ease-in duration-100'>
+                            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                                <div className='m-auto'>
+                                    {/* changing to django */}
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" alt="skill" width={64} height={64} />
+                                </div>
+                                <div className='flex flex-col items-center justify-center'>
+                                    <h3>Django</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className='p-6 shadow-xl dark:shadow-[#000] rounded-xl hover:scale-105 ease-in duration-100'>
+                            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                                <div className='m-auto'>
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="skill" width={64} height={64} />
+                                </div>
+                                <div className='flex flex-col items-center justify-center'>
+                                    <h3>JavaScript</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className='p-6 shadow-xl dark:shadow-[#000] rounded-xl hover:scale-105 ease-in duration-100'>
+                            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                                <div className='m-auto'>
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="skill" width={64} height={64} />
+                                </div>
+                                <div className='flex flex-col items-center justify-center'>
+                                    <h3>React</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className='p-6 shadow-xl dark:shadow-[#000] rounded-xl hover:scale-105 ease-in duration-100'>
+                            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                                <div className='m-auto'>
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" alt="skill" width={64} height={64} />
+                                </div>
+                                <div className='flex flex-col items-center justify-center'>
+                                    <h3>Tailwindcss</h3>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <div className='p-6 shadow-xl dark:shadow-[#000] rounded-xl hover:scale-105 ease-in duration-100'>
-                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-                        <div className='m-auto'>
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="skill" width={64} height={64}/>
-                        </div>
-                        <div  className='flex flex-col items-center justify-center'>
-                            <h3>Java</h3>
-                        </div>
-                    </div>
-                </div>
-
-                <div className='p-6 shadow-xl dark:shadow-[#000] rounded-xl hover:scale-105 ease-in duration-100'>
-                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-                        <div className='m-auto'>
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="skill" width={64} height={64}/>
-                        </div>
-                        <div  className='flex flex-col items-center justify-center'>
-                            <h3>HTML</h3>
-                        </div>
-                    </div>
-                </div>
-
-                <div className='p-6 shadow-xl dark:shadow-[#000] rounded-xl hover:scale-105 ease-in duration-100'>
-                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-                        <div className='m-auto'>
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="skill" width={64} height={64}/>
-                        </div>
-                        <div  className='flex flex-col items-center justify-center'>
-                            <h3>CSS</h3>
-                        </div>
-                    </div>
-                </div>
-
-                <div className='p-6 shadow-xl dark:shadow-[#000] rounded-xl hover:scale-105 ease-in duration-100'>
-                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-                        <div className='m-auto'>
-                            {/* changing to django */}
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" alt="skill" width={64} height={64}/> 
-                        </div>
-                        <div  className='flex flex-col items-center justify-center'>
-                            <h3>Django</h3>
-                        </div>
-                    </div>
-                </div>
-
-                <div className='p-6 shadow-xl dark:shadow-[#000] rounded-xl hover:scale-105 ease-in duration-100'>
-                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-                        <div className='m-auto'>
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="skill" width={64} height={64}/>
-                        </div>
-                        <div  className='flex flex-col items-center justify-center'>
-                            <h3>JavaScript</h3>
-                        </div>
-                    </div>
-                </div>
-
-                <div className='p-6 shadow-xl dark:shadow-[#000] rounded-xl hover:scale-105 ease-in duration-100'>
-                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-                        <div className='m-auto'>
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="skill" width={64} height={64}/>
-                        </div>
-                        <div  className='flex flex-col items-center justify-center'>
-                            <h3>React</h3>
-                        </div>
-                    </div>
-                </div>
-
-                <div className='p-6 shadow-xl dark:shadow-[#000] rounded-xl hover:scale-105 ease-in duration-100'>
-                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-                        <div className='m-auto'>
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" alt="skill" width={64} height={64}/>
-                        </div>
-                        <div  className='flex flex-col items-center justify-center'>
-                            <h3>Tailwindcss</h3>
-                        </div>
-                    </div>
-                </div>
-                </div>
-                </div>
-                </div>
-
-                {/* Favorite Projects??? */}
+            {/* Favorite Projects??? */}
         </>
     )
 }
