@@ -59,6 +59,7 @@ export default [
         image: 'https://i.postimg.cc/GpGQ6HBm/Flyspark.png',
         title: 'FlySpark',
         stack: ['React', 'TailwindCSS', 'Stripe'],
+        link: 'https://github.com/Lockwood-02/flyspark',
         description: 'This is my ongoing ecommerce web app that I am making to sell custom keyboards on'
     },
 ]
