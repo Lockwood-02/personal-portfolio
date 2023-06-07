@@ -51,8 +51,14 @@ export default [
     {
         image: 'https://i.postimg.cc/52Gx58GW/Vanity-View.png',
         title: 'Vanity-View',
-        stack: ['React', 'TailwindCSS', 'JavaScript'],
+        stack: ['React', 'TailwindCSS'],
         link: 'https://github.com/Lockwood-02/Vanity-View',
         description: 'An application where users can upload designs onto a 3D modeled shirt or have AI make a design for them'
-    }
+    },
+    {
+        image: 'https://i.postimg.cc/GpGQ6HBm/Flyspark.png',
+        title: 'FlySpark',
+        stack: ['React', 'TailwindCSS', 'Stripe'],
+        description: 'This is my ongoing ecommerce web app that I am making to sell custom keyboards on'
+    },
 ]
