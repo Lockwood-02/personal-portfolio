@@ -120,7 +120,8 @@ function Home() {
                         <div className='p-6 shadow-xl dark:shadow-[#000] rounded-xl hover:scale-105 ease-in duration-100'>
                             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                                 <div className='m-auto'>
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" alt="skill" width={64} height={64} />
+
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" alt="skill" width={64} height={64} />
                                 </div>
                                 <div className='flex flex-col items-center justify-center'>
                                     <h3>Tailwindcss</h3>
