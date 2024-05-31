@@ -64,7 +64,7 @@ export default [
     },
     {
         image: 'https://i.postimg.cc/rmsDwcHy/Paista.png',
-        title: 'pAISTA',
+        title: 'Paista',
         stack: ['React', 'Node.js', 'SQLite'],
         link: 'https://github.com/Lockwood-02/Paista',
         description: 'This is our own take on the Piazza network.'
