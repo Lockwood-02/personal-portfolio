@@ -48,18 +48,25 @@ export default [
         link: 'https://github.com/Lockwood-02/FBLA-QUEST-FOR-BAAs',
         description: 'My FBLA award winning game from High School'
     },
-    {
-        image: 'https://i.postimg.cc/52Gx58GW/Vanity-View.png',
-        title: 'Vanity-View',
-        stack: ['React', 'TailwindCSS'],
-        link: 'https://github.com/Lockwood-02/Vanity-View',
-        description: 'An application where users can upload designs onto a 3D modeled shirt or have AI make a design for them'
-    },
+    // {
+    //     image: 'https://i.postimg.cc/52Gx58GW/Vanity-View.png',
+    //     title: 'Vanity-View',
+    //     stack: ['React', 'TailwindCSS'],
+    //     link: 'https://github.com/Lockwood-02/Vanity-View',
+    //     description: 'An application where users can upload designs onto a 3D modeled shirt or have AI make a design for them'
+    // },
     {
         image: 'https://i.postimg.cc/GpGQ6HBm/Flyspark.png',
         title: 'FlySpark',
         stack: ['React', 'TailwindCSS', 'Stripe'],
         link: 'https://github.com/Lockwood-02/flyspark',
         description: 'This is my ongoing ecommerce web app that I am making to sell custom keyboards on'
+    },
+    {
+        image: 'https://i.postimg.cc/rmsDwcHy/Paista.png',
+        title: 'pAISTA',
+        stack: ['React', 'Node.js', 'SQLite'],
+        link: 'https://github.com/Lockwood-02/Paista',
+        description: 'This is our own take on the Piazza network.'
     },
 ]
