@@ -13,7 +13,7 @@ function Home() {
                         <p className="text-xl mt-8">
                             I'm a software developer in Bowling Green and a student at Western Kentucky University.
                             I love creating applications that test my limits and creativity.
-                            I'm currently a senior working towards my Bachelors and Masters in computer science through a joint program.
+                            I'm currently a graduate student working towards my Masters in computer science.
                         </p>
                     </div>
                 </header>
