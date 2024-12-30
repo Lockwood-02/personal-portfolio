@@ -102,16 +102,25 @@ function About() {
                         {/* End Switch Section */}
                     </div>
                 </header>
-                {/* <div className="flex mt-20 ml-8 m-auto object-bottom hidden md:block">
-                    <img
-                        src="https://i.postimg.cc/SNMv2FkR/fotor-2023-3-15-0-4-55.jpg"
-                        alt="me"
-                        title="MeOnDaPhotoShoot"
-                        className="border rounded border-[#2c2c2c] dark:border-gray-400"
-                    />
-                </div> */}
+                <div className="flex mt-20 ml-8 m-auto object-bottom hidden md:block">
+                    {mode === "personal" ? (
+                        <img
+                            src="https://i.postimg.cc/SNMv2FkR/fotor-2023-3-15-0-4-55.jpg"
+                            alt="me"
+                            title="MeOnDaPhotoShoot"
+                            className="border rounded border-[#2c2c2c] dark:border-gray-400"
+                        />
+                    ) : (
+                        <img
+                            src="https://i.postimg.cc/3wCXfPHh/Isaac-Lockwood-Resume.png"
+                            alt="resume"
+                            title="ResumeImage"
+                            className="border rounded border-[#2c2c2c] dark:border-gray-400 bg-white"
+                        />
+                    )}
+                </div>
             </div>
-            <div className="flex w-full h-auto m-auto mx-auto mt-8 justify-center">
+            <div className="flex w-full h-auto m-auto mx-auto mt-8 md:hidden justify-center">
                 {mode === "personal" ? (
                     <img
                         src="https://i.postimg.cc/SNMv2FkR/fotor-2023-3-15-0-4-55.jpg"
@@ -121,21 +130,13 @@ function About() {
                     />
                 ) : (
                     <img
-                        src="https://i.postimg.cc/XNDqxgXX/Isaac-Lockwood-Resume.png"
+                        src="https://i.postimg.cc/3wCXfPHh/Isaac-Lockwood-Resume.png"
                         alt="resume"
                         title="ResumeImage"
                         className="border rounded border-[#2c2c2c] dark:border-gray-400 bg-white"
                     />
                 )}
             </div>
-            {/* <div className="flex w-full h-auto m-auto mx-auto mt-8 md:hidden justify-center">
-                <img
-                    src="https://i.postimg.cc/SNMv2FkR/fotor-2023-3-15-0-4-55.jpg"
-                    alt="me"
-                    title="MeOnDaPhotoShoot"
-                    className="border rounded border-[#2c2c2c] dark:border-gray-400"
-                />
-            </div> */}
         </>
     );
 }
