@@ -17,7 +17,7 @@ function PortfolioItem({ image, title, stack, link, description, id, live }) {
                         </span>
                     ))}
                 </div>
-                <p className="text-gray-700 text-base dark:text-stone-200 h-[30px] overflow-hidden text-ellipsis">
+                <p className="text-gray-700 text-base dark:text-stone-200 h-[30px] text-ellipsis">
                     {description}
                 </p>
             </div>

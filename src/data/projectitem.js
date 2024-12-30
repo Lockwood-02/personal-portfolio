@@ -18,6 +18,7 @@ export default [
         description: "A simple visualizer tool for AVL Trees and Heaps",
         details:
             "This application allows users to input different node variables and see how it would be structured in an AVL Tree or Heap. Using simple HTML and CSS with some JavaScript as well, the program takes the algorithm rules that are defined and animates them for users to visually see. I want to add more data structures in the future.",
+        live: "https://avl-visualizer.vercel.app/",
     },
     {
         image: "https://i.postimg.cc/43QrmNyQ/Study-Buddy.png",
