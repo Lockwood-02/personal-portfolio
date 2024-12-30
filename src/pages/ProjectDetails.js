@@ -82,14 +82,27 @@ function ProjectDetails() {
                 <p className="text-gray-700 text-lg dark:text-stone-200 mt-4">
                     {project.details}
                 </p>
-                <a
-                    href={project.link}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="inline-block px-4 py-2 mt-4 bg-blue-500 text-white font-bold rounded hover:bg-blue-700"
-                >
-                    View Source on GitHub
-                </a>
+                <div className="mt-8 flex gap-4">
+                    <a
+                        href={project.link}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="inline-block px-4 py-2 bg-blue-500 text-white font-bold rounded hover:bg-blue-700"
+                    >
+                        View Source on GitHub
+                    </a>
+                    {/* Conditionally render Live button */}
+                    {project.live && (
+                        <a
+                            href={project.live}
+                            target="_blank"
+                            rel="noreferrer"
+                            className="inline-block px-4 py-2 bg-green-500 text-white font-bold rounded hover:bg-green-700"
+                        >
+                            View Live Demo
+                        </a>
+                    )}
+                </div>
             </div>
         </>
     );

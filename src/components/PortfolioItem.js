@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function PortfolioItem({ image, title, stack, link, description, id }) {
+function PortfolioItem({ image, title, stack, link, description, id, live }) {
     return (
         <div className="max-w-sm rounded overflow-hidden shadow-xl dark:shadow-[#000] relative mb-8">
             <img className="w-full h-48" src={image} alt={title} />
@@ -17,13 +17,12 @@ function PortfolioItem({ image, title, stack, link, description, id }) {
                         </span>
                     ))}
                 </div>
-                {/* Fixed height for description */}
-                <p className="text-gray-700 text-base dark:text-stone-200 h-[30px] text-ellipsis">
+                <p className="text-gray-700 text-base dark:text-stone-200 h-[30px] overflow-hidden text-ellipsis">
                     {description}
                 </p>
             </div>
             {/* Ensure consistent spacing below description */}
-            <div className="px-6 pt-4 pb-4 mt-12 flex justify-between">
+            <div className="px-6 pt-4 pb-4 mt-12 flex justify-between items-center">
                 <a
                     href={link}
                     target="_blank"
@@ -32,6 +31,17 @@ function PortfolioItem({ image, title, stack, link, description, id }) {
                 >
                     Source
                 </a>
+                {/* Conditionally render the Live button */}
+                {live && (
+                    <a
+                        href={live}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="inline-block px-2 py-1 font-semibold border-2 border-green-500 dark:border-green-500 rounded-md hover:bg-green-500"
+                    >
+                        Live
+                    </a>
+                )}
                 <Link
                     to={`/project-details/${id}`}
                     className="inline-block px-2 py-1 font-semibold border-2 border-blue-500 dark:border-blue-500 rounded-md hover:bg-blue-500"

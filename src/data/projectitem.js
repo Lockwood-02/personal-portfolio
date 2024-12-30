@@ -1,13 +1,14 @@
 export default [
     {
-        image: "https://i.postimg.cc/43QrmNyQ/Study-Buddy.png",
-        title: "StuddyBuddy",
-        stack: ["JavaScript", "CSS", "Python"],
-        link: "https://github.com/Lockwood-02/StudyBuddy",
+        image: "https://i.postimg.cc/m206jqvm/AWSNotes-App.png",
+        title: "AWS Notes App",
+        stack: ["AWS Amplify", "React"],
+        link: "https://github.com/Lockwood-02/notesapp",
         description:
-            "An application where users can message and discuss various topics as well as keep track of expenses and reports",
+            "An application that allows users to log in and create notes with varying properties",
         details:
-            "This is one of my earlier projects that was created for my senior project course. The application allows users to create an account and create posts.",
+            "This website was my first dip into AWS and what it had to offer. It taught me multiple different techniques involving AWS and Amplify to efficiently incorporate their features into a simple React application. I would like to add more features to make it more of my own. This was created using a guide from Amazon themselves.",
+        live: "https://main.d3mjgu53qbvhmf.amplifyapp.com/",
     },
     {
         image: "https://i.postimg.cc/tCGBL433/AVLVisualizer.png",
@@ -17,6 +18,16 @@ export default [
         description: "A simple visualizer tool for AVL Trees and Heaps",
         details:
             "This application allows users to input different node variables and see how it would be structured in an AVL Tree or Heap. Using simple HTML and CSS with some JavaScript as well, the program takes the algorithm rules that are defined and animates them for users to visually see. I want to add more data structures in the future.",
+    },
+    {
+        image: "https://i.postimg.cc/43QrmNyQ/Study-Buddy.png",
+        title: "StuddyBuddy",
+        stack: ["JavaScript", "CSS", "Python"],
+        link: "https://github.com/Lockwood-02/StudyBuddy",
+        description:
+            "An application where users can message and discuss various topics as well as keep track of expenses and reports",
+        details:
+            "This is one of my earlier projects that was created for my senior project course. The application allows users to create an account and create posts.",
     },
     {
         image: "https://i.postimg.cc/dVHsDBf0/Class-Mate.png",

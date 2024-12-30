@@ -19,6 +19,7 @@ function Projects() {
                                 stack={project.stack}
                                 link={project.link}
                                 description={project.description}
+                                live={project.live}
                             />
                         ))}
                     </div>
