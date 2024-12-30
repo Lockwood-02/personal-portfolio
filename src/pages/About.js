@@ -111,7 +111,7 @@ function About() {
                     />
                 </div> */}
             </div>
-            <div className="flex w-full h-auto m-auto mx-auto mt-8 md:hidden justify-center">
+            <div className="flex w-full h-auto m-auto mx-auto mt-8 justify-center">
                 {mode === "personal" ? (
                     <img
                         src="https://i.postimg.cc/SNMv2FkR/fotor-2023-3-15-0-4-55.jpg"
