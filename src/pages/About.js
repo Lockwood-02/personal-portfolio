@@ -112,7 +112,7 @@ function About() {
                         />
                     ) : (
                         <img
-                            src="https://i.postimg.cc/3wCXfPHh/Isaac-Lockwood-Resume.png"
+                            src="https://i.postimg.cc/XNDqxgXX/Isaac-Lockwood-Resume.png"
                             alt="resume"
                             title="ResumeImage"
                             className="border rounded border-[#2c2c2c] dark:border-gray-400 bg-white"
@@ -130,7 +130,7 @@ function About() {
                     />
                 ) : (
                     <img
-                        src="https://i.postimg.cc/3wCXfPHh/Isaac-Lockwood-Resume.png"
+                        src="https://i.postimg.cc/XNDqxgXX/Isaac-Lockwood-Resume.png"
                         alt="resume"
                         title="ResumeImage"
                         className="border rounded border-[#2c2c2c] dark:border-gray-400 bg-white"
