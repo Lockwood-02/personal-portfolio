@@ -80,8 +80,7 @@ function About() {
                                     Computer Science in December of 24'. You can
                                     also find my resume{" "}
                                     <a
-                                        href="https://docs.google.com/document/d/1ocPddHSScaqN3ZLxyrtEIY3cpP6V80Je0LxbB-anp9Q/edit"
-                                        target="_blank"
+                                        href="/resume"
                                         rel="noreferrer"
                                         className="text-amber-500 underline hover:bg-amber-500 hover:text-stone-300"
                                     >
@@ -103,13 +102,30 @@ function About() {
                         {/* End Switch Section */}
                     </div>
                 </header>
-                <div className="flex mt-20 ml-8 m-auto object-bottom hidden md:block">
+                {/* <div className="flex mt-20 ml-8 m-auto object-bottom hidden md:block">
                     <img
                         src="https://i.postimg.cc/SNMv2FkR/fotor-2023-3-15-0-4-55.jpg"
                         alt="me"
                         title="MeOnDaPhotoShoot"
                         className="border rounded border-[#2c2c2c] dark:border-gray-400"
                     />
+                </div> */}
+                <div className="flex mt-20 ml-8 m-auto object-bottom hidden md:block">
+                    {mode === "personal" ? (
+                        <img
+                            src="https://i.postimg.cc/SNMv2FkR/fotor-2023-3-15-0-4-55.jpg"
+                            alt="me"
+                            title="MeOnDaPhotoShoot"
+                            className="border rounded border-[#2c2c2c] dark:border-gray-400"
+                        />
+                    ) : (
+                        <img
+                            src="https://i.postimg.cc/XNDqxgXX/Isaac-Lockwood-Resume.png"
+                            alt="resume"
+                            title="ResumeImage"
+                            className="border rounded border-[#2c2c2c] dark:border-gray-400 bg-white"
+                        />
+                    )}
                 </div>
             </div>
             <div className="flex w-full h-auto m-auto mx-auto mt-8 md:hidden justify-center">

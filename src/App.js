@@ -6,6 +6,7 @@ import NoPage from "./pages/NoPage";
 import Footer from "./components/Footer";
 import Contact from "./pages/Contact";
 import ProjectDetails from "./pages/ProjectDetails";
+import Resume from "./pages/Resume";
 
 function App() {
     return (
@@ -21,6 +22,9 @@ function App() {
                             path="/project-details/:id"
                             element={<ProjectDetails />}
                         />
+                        <Route path="/resume" element={<Resume />}>
+                            {" "}
+                        </Route>
                         <Route path="/contact" element={<Contact />} />
                         <Route path="*" element={<NoPage />} />
                     </Routes>
